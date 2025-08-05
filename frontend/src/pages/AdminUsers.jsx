@@ -45,7 +45,7 @@ const AdminUsers = () => {
         <tbody>
           {users.map((u) => (
             <tr key={u.id}>
-              <td className="border px-3 py-2">{u.name}</td>
+              <td className="border px-3 py-2">{u.id}</td>
               <td className="border px-3 py-2">{u.email}</td>
               <td className="border px-3 py-2">{u.role}</td>
               <td className="border px-3 py-2">
