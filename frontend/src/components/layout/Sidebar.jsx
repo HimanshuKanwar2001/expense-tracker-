@@ -18,7 +18,7 @@ const Sidebar = () => {
             Transactions
           </Link>
         )}
-        it
+
         {/* Admin only */}
         {user?.role === "admin" && (
           <Link to="/admin/users" className="block hover:text-indigo-500">
